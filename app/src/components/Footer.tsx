@@ -117,12 +117,22 @@ export default function Footer() {
           <p className="text-text-muted font-body text-caption">
             &copy; 2025 Omega Productions. Tous droits réservés.
           </p>
-          <a
-            href="#"
-            className="text-text-muted font-body text-caption hover:text-text-secondary transition-colors duration-200"
-          >
-            Mentions légales
-          </a>
+          <div className="flex items-center gap-6">
+            <a
+              href="#"
+              className="text-text-muted font-body text-caption hover:text-text-secondary transition-colors duration-200"
+            >
+              Mentions légales
+            </a>
+            <a
+              href="https://www.beonweb.cm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text-muted font-body text-caption hover:text-accent transition-colors duration-200"
+            >
+              Powered by <span className="text-accent">Beonweb</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
