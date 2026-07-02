@@ -124,14 +124,6 @@ export default function Footer() {
             >
               Mentions légales
             </a>
-            <a
-              href="https://www.beonweb.cm/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-text-muted font-body text-caption hover:text-accent transition-colors duration-200"
-            >
-              Powered by <span className="text-accent">Beonweb</span>
-            </a>
           </div>
         </div>
       </div>
